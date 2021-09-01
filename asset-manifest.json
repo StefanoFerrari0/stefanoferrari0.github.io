@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.18d15387.chunk.css",
-    "main.js": "/static/js/main.f0db867a.chunk.js",
-    "main.js.map": "/static/js/main.f0db867a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.53a20cf7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.53a20cf7.js.map",
-    "static/js/2.cb63ca08.chunk.js": "/static/js/2.cb63ca08.chunk.js",
-    "static/js/2.cb63ca08.chunk.js.map": "/static/js/2.cb63ca08.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.18d15387.chunk.css.map": "/static/css/main.18d15387.chunk.css.map",
-    "static/js/2.cb63ca08.chunk.js.LICENSE.txt": "/static/js/2.cb63ca08.chunk.js.LICENSE.txt",
-    "static/media/AndProducciones.e17d35e9.gif": "/static/media/AndProducciones.e17d35e9.gif",
-    "static/media/ProfilePicture.8f8043a0.png": "/static/media/ProfilePicture.8f8043a0.png",
-    "static/media/ReyDelPanchuque.80af294f.gif": "/static/media/ReyDelPanchuque.80af294f.gif"
+    "main.css": "/stefanoferrari0.github.io/static/css/main.18d15387.chunk.css",
+    "main.js": "/stefanoferrari0.github.io/static/js/main.f0db867a.chunk.js",
+    "main.js.map": "/stefanoferrari0.github.io/static/js/main.f0db867a.chunk.js.map",
+    "runtime-main.js": "/stefanoferrari0.github.io/static/js/runtime-main.779673cc.js",
+    "runtime-main.js.map": "/stefanoferrari0.github.io/static/js/runtime-main.779673cc.js.map",
+    "static/js/2.cb63ca08.chunk.js": "/stefanoferrari0.github.io/static/js/2.cb63ca08.chunk.js",
+    "static/js/2.cb63ca08.chunk.js.map": "/stefanoferrari0.github.io/static/js/2.cb63ca08.chunk.js.map",
+    "index.html": "/stefanoferrari0.github.io/index.html",
+    "static/css/main.18d15387.chunk.css.map": "/stefanoferrari0.github.io/static/css/main.18d15387.chunk.css.map",
+    "static/js/2.cb63ca08.chunk.js.LICENSE.txt": "/stefanoferrari0.github.io/static/js/2.cb63ca08.chunk.js.LICENSE.txt",
+    "static/media/AndProducciones.e17d35e9.gif": "/stefanoferrari0.github.io/static/media/AndProducciones.e17d35e9.gif",
+    "static/media/ProfilePicture.8f8043a0.png": "/stefanoferrari0.github.io/static/media/ProfilePicture.8f8043a0.png",
+    "static/media/ReyDelPanchuque.80af294f.gif": "/stefanoferrari0.github.io/static/media/ReyDelPanchuque.80af294f.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.53a20cf7.js",
+    "static/js/runtime-main.779673cc.js",
     "static/js/2.cb63ca08.chunk.js",
     "static/css/main.18d15387.chunk.css",
     "static/js/main.f0db867a.chunk.js"
