@@ -1,0 +1,68 @@
+.card {
+  margin: 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  justify-items: center;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projectImg {
+  width: 100%;
+  object-fit: contain;
+}
+
+.projectText {
+  padding: 15px 20px;
+}
+
+.projectText p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn2 {
+  display: block;
+  border: none;
+  background-color: #2fa06b;
+  color: #fff;
+  width: 130px;
+  margin: 10px 10px 10px 0px;
+  padding: 8px 20px 15px 20px;
+  text-align: start;
+  cursor: pointer;
+  font-weight: 700;
+}
+.svgIcon {
+  display: inline;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+.allBtn {
+  align-items: center;
+}
+
+@media (min-width: 480px) {
+  .btn2 {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 400px;
+    min-height: 448px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 600px;
+    min-height: 448px;
+  }
+}

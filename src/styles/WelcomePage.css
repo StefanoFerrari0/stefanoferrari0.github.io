@@ -1,0 +1,147 @@
+.sectionWelcome {
+  display: grid;
+  grid-template: "image image" "text text";
+  align-items: center;
+  margin: 0px 5px 20px 5px;
+}
+
+.imgContainer {
+  grid-area: image;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.welcomeText {
+  grid-area: text;
+  text-align: center;
+}
+
+.welcomeText h1 {
+  color: rgb(30, 31, 25);
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 2.8rem;
+  height: 100px;
+  margin: 20px 20px 15px 20px;
+}
+
+.welcomeText h2 {
+  color: rgb(54, 56, 46);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.welcomeText p {
+  color: rgb(29, 31, 25);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-kerning: normal;
+  margin: 0px 20px 30px 20px;
+}
+
+.welcomeImg {
+  width: 320px;
+}
+
+@media (min-width: 480px) {
+  .sectionWelcome {
+    margin: 0px 20px 30px 20px;
+  }
+  .welcomeText h1 {
+    width: 80%;
+    font-size: 3.5rem;
+    line-height: 3.3rem;
+    margin: 30px auto 25px auto;
+  }
+  .welcomeText p {
+    width: 75%;
+    text-align: center;
+    margin: 0px auto 30px auto;
+  }
+  .welcomeImg {
+    width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionWelcome {
+    margin: 0px 20px 50px 20px;
+  }
+  .welcomeText h1 {
+    width: 70%;
+    font-size: 4.5rem;
+    line-height: 4.3rem;
+    margin: 30px auto 40px auto;
+  }
+  .welcomeText h2 {
+    margin: 10px auto;
+  }
+  .welcomeText p {
+    margin-bottom: 29px;
+  }
+  .welcomeImg {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionWelcome {
+    margin: 40px 0px 80px 100px;
+    display: grid;
+    grid-template:
+      "text image"
+      "text image";
+  }
+
+  .welcomeText {
+    margin-top: 60px;
+    text-align: left;
+    align-content: center;
+  }
+  .welcomeText h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    margin: 20px 0px 20px 0px;
+    width: 450px;
+    height: 160px;
+  }
+  .welcomeText h2 {
+    margin: 10px auto;
+  }
+
+  .welcomeText p {
+    margin: 0px 0px 30px;
+    text-align: left;
+    width: 80%;
+  }
+
+  .imgContainer {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .welcomeImg {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sectionWelcome {
+    margin: 40px 150px 80px 150px;
+    display: grid;
+    grid-template:
+      "text image"
+      "text image";
+  }
+
+  .welcomeText p {
+    width: 450px;
+  }
+
+  .welcomeImg {
+    width: 506px;
+    height: 480px;
+  }
+}

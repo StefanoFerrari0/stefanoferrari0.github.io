@@ -1,0 +1,63 @@
+:root {
+  --main-color: #43f9a5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: "Catamaran", sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(29, 31, 25);
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(30, 31, 25);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /*margin-right: 30px;*/
+  cursor: pointer;
+  transition: 0.5s all;
+  margin: 0px auto 10px auto;
+}
+
+.btn:hover,
+.btn:active {
+  background: var(--main-color);
+  color: black;
+  transition: 0.5s all;
+  border: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+@media (min-width: 480px) {
+  .btn {
+    margin: 10px 30px;
+  }
+}
+
+@media (min-width: 769px) {
+  .btn {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    margin: 0px 20px 10px 0px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+}

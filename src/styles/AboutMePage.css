@@ -1,0 +1,101 @@
+.section {
+  margin: 0px 5px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  height: 55px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 9px;
+}
+
+.section p {
+  margin: 1% auto;
+  width: 80%;
+  color: rgb(29, 31, 25);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-kerning: normal;
+  text-align: center;
+}
+
+.containerBtn {
+  text-align: center;
+}
+
+.refContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto 30px auto;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  margin: 4px 5px 0px 0px;
+}
+
+.circleChangeColor {
+  background-color: #2fa06b;
+}
+
+.nameCircle {
+  margin-right: 0px;
+}
+
+.item {
+  margin-top: 10px;
+}
+
+@media (min-width: 480px) {
+  .section {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .section {
+    margin: auto 150px;
+  }
+  .section p {
+    width: 700px;
+  }
+  .containerBtn {
+    float: left;
+  }
+  .refContainer {
+    width: 100%;
+    flex-direction: row;
+    margin: 0px auto 20px auto;
+    text-align: center;
+  }
+  .nameCircle {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
