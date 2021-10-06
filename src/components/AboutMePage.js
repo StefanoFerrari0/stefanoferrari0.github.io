@@ -2,13 +2,19 @@ import React, { useState } from "react";
 import Icons from "./icons";
 import copy from "copy-to-clipboard";
 import "../styles/AboutMePage.css";
+import toast, { Toaster } from 'react-hot-toast';
 
 function AboutMePage() {
-  const [copyText, setCopyText] = useState("stefanoferrari.dev@gmail.com");
+  const [copyText] = useState("stefanoferrari.dev@gmail.com");
 
   const copyToClipboard = () => {
     copy(copyText);
-    alert(`You have copied "${copyText}"`);
+    toast.success('¡Copiaste mi email en tu portapapeles!', {
+      duration: 3000,
+      position: 'bottom-center',
+      style: {fontWeight: 700, backgroundColor: "#F7F7F7"},
+      icon: '👏',
+    })
   };
 
   return (
@@ -37,7 +43,7 @@ function AboutMePage() {
       </div>
       <div className="containerBtn">
         <a
-          href="https://drive.google.com/file/d/1dQbzWpxmPYqwl6GOBRq-eRaTJDtETiF2/view"
+          href="https://drive.google.com/file/d/14n6kGWa7VgRpiNkaD8I39Yu4fTC0mlss/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
@@ -48,6 +54,7 @@ function AboutMePage() {
           Copiar Mail
         </button>
       </div>
+      <Toaster />
     </section>
   );
 }

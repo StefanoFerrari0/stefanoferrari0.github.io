@@ -8,6 +8,7 @@ import {
   SiReact,
   SiNodeDotJs,
   SiNextDotJs,
+  SiAngular,
 } from "react-icons/si";
 import "../styles/icon.css";
 
@@ -19,6 +20,7 @@ function Icons() {
     <SiTailwindcss size="60px" />,
     <SiFigma size="60px" />,
     <SiJavascript size="60px" />,
+    <SiAngular size="60px" />,
     <SiReact size="60px" />,
     <SiNodeDotJs size="60px" fill="#2fa06b" />,
     <SiNextDotJs size="60px" fill="#2fa06b" />,
@@ -31,6 +33,7 @@ function Icons() {
     "TailwindCSS",
     "Figma",
     "Javascript",
+    "Angular",
     "React",
     "Node.js",
     "Nextjs",

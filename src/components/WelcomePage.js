@@ -2,7 +2,7 @@ import ProfilePicture from "../ProfilePicture.png";
 import TypeIt from "typeit-react";
 import "../styles/WelcomePage.css";
 
-function Welcome() {
+function Welcome({reference, click}) {
   return (
     <section className="sectionWelcome">
       <div className="welcomeText">
@@ -29,7 +29,7 @@ function Welcome() {
           en la UTN-FRT. El café y la música es mi compañia a la hora de
           programar.
         </p>
-        <button className="btn">Mis trabajos</button>
+        <button ref={reference} onClick={click} className="btn">Mis trabajos</button>
         <a
           target="_blank"
           rel="noreferrer"

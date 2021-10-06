@@ -37,6 +37,10 @@
   cursor: pointer;
   font-weight: 700;
 }
+
+.btn2:hover{
+  background-color: #2b8f60;
+}
 .svgIcon {
   display: inline;
   position: relative;

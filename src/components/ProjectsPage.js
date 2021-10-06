@@ -1,11 +1,11 @@
 import "../styles/ProjectsPage.css";
 import AndProducciones from "../AndProducciones.gif";
 import ReyDelPanchuque from "../ReyDelPanchuque.gif";
-
 import Card from "./Card.js";
-function Projects() {
+
+function Projects({reference}) {
   return (
-    <section className="projectSection">
+    <section ref={reference}className="projectSection">
       <h2 className="title">Portfolio</h2>
       <Card
         alt="El rey del panchuque Website"
@@ -17,7 +17,7 @@ function Projects() {
         linkProject="https://elreydelpanchuque-plum.vercel.app/"
       />
       <Card
-        alt="AndProducciones Website"
+        alt="And Producciones Website"
         image={AndProducciones}
         title="AndProducciones"
         parragraph="Éste proyecto lo realicé con React, también utilicé Firebase como base
