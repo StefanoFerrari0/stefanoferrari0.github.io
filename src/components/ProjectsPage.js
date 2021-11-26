@@ -11,8 +11,8 @@ function Projects({ reference }) {
         alt="El rey del panchuque Website"
         image={ReyDelPanchuque}
         title="El rey del panchuque"
-        parragraph="Proyecto realizado con Angular, base de datos MongoDB, también creé una API Rest para consumir los datos. Están hechas las bases del proyecto para agrandarlo a un Ecommerce, el backend fue desarrolado con Nodejs.
-        Puro CSS. La página consta de una landing page y un cátalogo de productos por los cuales pueden consultar a través de Whatsapp."
+        parragraph="Proyecto realizado con React, base de datos MongoDB, también creé una API Rest para consumir los datos. Están hechas las bases del proyecto para agrandarlo a un Ecommerce, el backend fue desarrolado con Nodejs.
+        Puro CSS. La página consta de una landing page y un cátalogo de productos por los cuales pueden consultar a través de Whatsapp. Tambien tiene un sistema de Login con JsonWebToken en el cual se accede a un CRUD de productos."
         linkCode="https://github.com/StefanoFerrari0/Elreydelpanchuque"
         linkProject="https://elreydelpanchuque-plum.vercel.app/"
       />
@@ -20,7 +20,7 @@ function Projects({ reference }) {
         alt="And Producciones Website"
         image={AndProducciones}
         title="AndProducciones"
-        parragraph="Éste proyecto lo realicé con Angular, también utilicé Firebase como base
+        parragraph="Éste proyecto lo realicé con React, también utilicé Firebase como base
           de datos. Contiene una sección Admin con login y autentificación, en
           la cual hay un CRUD de Eventos, de Artistas y la página se actualizará
           sola en base a estos cambios. Con respecto al diseño, retraté lo

@@ -5,11 +5,12 @@ import {
   SiFigma,
   SiGithub,
   SiJavascript,
-  SiTypescript,
   SiReact,
   SiNodeDotJs,
   SiNextDotJs,
   SiAngular,
+  SiTypescript,
+  SiAzuredevops,
 } from "react-icons/si";
 import "../styles/icon.css";
 
@@ -21,11 +22,12 @@ function Icons() {
     <SiTailwindcss size="60px" />,
     <SiFigma size="60px" />,
     <SiJavascript size="60px" />,
-    <SiAngular size="60px" />,
-    <SiTypescript size="60px" />,
     <SiReact size="60px" />,
     <SiNodeDotJs size="60px" fill="#2fa06b" />,
     <SiNextDotJs size="60px" fill="#2fa06b" />,
+    <SiAngular size="60px" fill="#2fa06b" />,
+    <SiTypescript size="60px" fill="#2fa06b"/>,
+    <SiAzuredevops size="60px" fill="#2fa06b"/>,
   ];
 
   const name = [
@@ -35,11 +37,12 @@ function Icons() {
     "TailwindCSS",
     "Figma",
     "Javascript",
-    "Angular",
-    "TypeScript",
     "React",
     "Node.js",
     "Nextjs",
+    "Angular",
+    "TypeScript",
+    "Azure DevOps"
   ];
   return (
     <div className="iconContainer">
