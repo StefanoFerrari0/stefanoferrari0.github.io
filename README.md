@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Para que los cambios se actualicen en el GITHUB PAGES.
+**Note: Este comando es para que los cambios se actualicen en el GITHUB PAGES.**
 
 ### `npm run build`
 
