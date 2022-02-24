@@ -17,7 +17,7 @@ function Welcome({reference, click}) {
                 .pause(1150)
                 .delete(15, { speed: 300 })
                 .pause(500)
-                .type("Desarrollador Frontend JR")
+                .type("Desarrollador Frontend")
                 .pause(1050)
                 .delete(21, { speed: 300 });
               return instance;
@@ -25,8 +25,7 @@ function Welcome({reference, click}) {
           />
         </h1>
         <p>
-          Me encuentro finalizando la Tecnicatura Universitaria en Programación
-          en la UTN-FRT. El café y la música es mi compañia a la hora de
+          El café y la música es mi compañia a la hora de
           programar.
         </p>
         <button ref={reference} onClick={click} className="btn">Mis trabajos</button>

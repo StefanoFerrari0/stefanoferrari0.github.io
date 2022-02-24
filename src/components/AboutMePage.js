@@ -20,7 +20,7 @@ function AboutMePage() {
   return (
     <section className="section">
       <h2 className="title">Sobre mí</h2>
-      <h3 className="subtitle">Desarrollador Frontend Jr</h3>
+      <h3 className="subtitle">Desarrollador Frontend</h3>
       <p>
         Vivo en Tucumán - Argentina, actualmente estoy finalizando la
         Tecnicatura Universitaria en Programación, años anteriores estudié
